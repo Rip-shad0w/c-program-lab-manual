@@ -1,1 +1,21 @@
-
+#include <stdio.h>
+int main() {
+    int i; long l;char c;float f;double d;
+    printf("--- Please enter the following data ---\n");
+    printf("Enter an integer: ");
+    scanf("%d", &i);
+    printf("Enter a long integer: ");
+    scanf("%ld", &l);
+    printf("Enter a character: ");
+    scanf(" %c", &c);
+    printf("Enter a float: ");
+    scanf("%f", &f);
+    printf("Enter a double: ");
+    scanf("%lf", &d);
+    printf("\n--- Formatted Output ---\n");
+    printf("Integer: %d\n", i);
+    printf("Long:    %ld\n", l);
+    printf("Char:    %c\n", c);
+    printf("Float:   %.3f\n", f); 
+    printf("Double:  %.9lf\n", d);
+    return 0;}

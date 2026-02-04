@@ -1,1 +1,9 @@
-
+#include <stdio.h>
+int main(){
+    char ch,S[50],sen[75];
+    printf("enter a character:");scanf(" %c",&ch);
+    printf("enter a word:");scanf(" %s",S);
+    getchar();
+    printf("enter a sentence:");fgets(sen,sizeof(sen),stdin);
+    printf("%c\n%s\n%s",ch,S,sen);
+    return 0;}

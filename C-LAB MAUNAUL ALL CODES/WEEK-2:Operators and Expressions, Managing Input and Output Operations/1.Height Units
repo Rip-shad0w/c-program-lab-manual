@@ -1,1 +1,10 @@
-
+#include <stdio.h>
+int main() {
+    // 1 foot=30.4cm and 1inch=2.54cm
+    int feet,inch;
+    float cm;
+    printf("enter feet/foot:");scanf("%d",&feet);
+    printf("enter inches:");scanf("%d",&inch);
+    cm=((feet*30.4)+(inch*2.54));
+    printf("%0.2f",cm);
+    return 0;}

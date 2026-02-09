@@ -3,6 +3,6 @@ int main() {
     int n,total;
     printf("enter the ppl attended the meeting:");
     scanf(" %d",&n);
-        total=(n*(n-1))/2;
-        printf("The no of handshakes made were %d",total);
+    total=(n*(n-1))/2;
+    printf("The no of handshakes made were %d",total);
     return 0;}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int x,y;
+    printf("enter skills required for a friend:")
+    scanf("%d",&x);
+    printf("enter the skills of friend:");
+    scanf("%d",&y);
+    if (x>y) {
+        printf("No");}
+    else{
+        printf("Yes");}
+        return 0;
+}

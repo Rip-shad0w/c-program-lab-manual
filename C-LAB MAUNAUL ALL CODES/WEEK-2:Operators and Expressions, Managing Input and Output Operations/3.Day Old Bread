@@ -2,7 +2,7 @@
 int main() {
     int num;
     float rprice,dprice,total;
-    //printf("enter no.of day old bread");
+    printf("enter no.of day old bread:");
     scanf( "%d",&num);
     rprice=num*3.49;dprice=num*3.49*0.6;total=rprice-dprice;
     printf("regular price:%0.2f Discount:%0.2f Total:%0.2f",rprice,dprice,total);

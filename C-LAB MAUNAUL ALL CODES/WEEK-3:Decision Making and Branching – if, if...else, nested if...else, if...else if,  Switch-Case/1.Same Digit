@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+    int num1,num2,ldig1,ldig2;
+    printf("enter two numbers:");
+    scanf("%d %d",&num1,&num2);
+    ldig1=num1%10;ldig2=num2%10;
+    if (ldig1==ldig2){
+        printf("true");}
+    else{
+        printf("False");}
+    return 0;}

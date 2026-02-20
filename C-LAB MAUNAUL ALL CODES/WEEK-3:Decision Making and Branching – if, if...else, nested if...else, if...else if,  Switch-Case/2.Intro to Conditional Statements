@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+    int num;
+    printf("enter number");scanf("%d",&num);
+    if(num>1 && num<100){
+        if(num%2!=0){
+            printf("weird");}
+        else if(num>1 && num<6){
+           printf("not weird");} 
+        else if(num>5 && num<21){
+            printf("weird");}
+        else if(num>20){
+            printf("not weird");}
+            }
+    return 0;}

@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+    int year;
+    printf("Enter a year: ");
+    scanf("%d", &year);
+    int zodiacIndex = year % 12;
+    printf("Animal for %d: ", year);
+    switch (zodiacIndex) {
+        case 0:  printf("Dragon\n");  break;
+        case 1:  printf("Snake\n");   break;
+        case 2:  printf("Horse\n");   break;
+        case 3:  printf("Sheep\n");   break;
+        case 4:  printf("Monkey\n");  break;
+        case 5:  printf("Rooster\n"); break;
+        case 6:  printf("Dog\n");     break;
+        case 7:  printf("Pig\n");     break;
+        case 8:  printf("Rat\n");     break;
+        case 9:  printf("Ox\n");      break;
+        case 10: printf("Tiger\n");   break;
+        case 11: printf("Hare\n");    break;
+    }
+    return 0;
+}

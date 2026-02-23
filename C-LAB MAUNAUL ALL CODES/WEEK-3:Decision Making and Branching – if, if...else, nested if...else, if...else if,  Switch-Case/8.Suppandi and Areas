@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() {
+    char shape;
+    int side1, side2, area = 0;
+    //printf("enter details");
+    scanf(" %c\n%d\n%d", &shape, &side1, &side2);
+    // Apply Suppandi's logic
+    if (shape == 'R') {
+        // Rectangle means Square
+        area = side1 * side1;
+    } 
+    else if (shape == 'S') {
+        // Square means Triangle
+        area = (side1 * side2) / 2;
+    } 
+    else if (shape == 'T') {
+        // Triangle means Rectangl
+        area = side1 * side2;
+    } 
+    else{
+        area = 0;
+    }
+    printf("%d\n", area);
+    return 0;
+}

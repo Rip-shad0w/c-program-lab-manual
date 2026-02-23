@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    char let;int num1,num2,sum;
+    printf("enter position: ");
+    scanf("%c %d",&let,&num1);
+    num2=let;sum=num1+num2;
+    if (sum%2==0){
+        printf("the square is black");}
+    else{
+        printf("the square is black");}
+    return 0;}

@@ -3,7 +3,7 @@ int main() {
     int year;
     printf("Enter a year: ");
     scanf("%d", &year);
-    int zodiacIndex = year % 12;
+    int zodiacIndex = (year+4) % 12;
     printf("Animal for %d: ", year);
     switch (zodiacIndex) {
         case 0:  printf("Dragon\n");  break;

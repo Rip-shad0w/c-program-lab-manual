@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    long long num;
+    int count = 0;
+    char ch;
+    while (scanf("%lld", &num) == 1) {
+        printf("%lld",num);
+        if (num % 2 != 0) {
+            count++;}
+        ch = getchar();
+        if (ch == '\n') {
+            break;}
+    }
+    printf("%d", count);
+    return 0;}

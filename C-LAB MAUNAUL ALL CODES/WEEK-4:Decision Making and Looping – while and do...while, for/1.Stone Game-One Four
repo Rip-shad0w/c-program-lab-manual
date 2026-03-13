@@ -6,7 +6,7 @@ int main() {
         printf("no.of stones:");scanf("%d",&n);
         if(n%5==0 || n%5==2){
                 printf("No\n",i+1);}
-            else{
-                printf("Yes\n",i+1);}
+        else{
+            printf("Yes\n",i+1);}
         i++;}
     return 0;}

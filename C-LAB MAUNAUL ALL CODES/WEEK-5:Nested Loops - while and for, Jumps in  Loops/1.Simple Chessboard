@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int T,s,i,j,k;
+    //printf("%s","enter no.of inputs");
+    scanf("%d",&T);
+    for(i=0;i<T;i++){
+        //printf("%s","enter grid size");
+        scanf("%d",&s);
+        for(j=0;j<s;j++){
+            for(k=0;k<s;k++){
+                if((k+j)%2==0){
+                    printf("%c",'W');}
+                else{
+                    printf("%c",'B');}}
+            printf("\n");}}
+    return 0;}

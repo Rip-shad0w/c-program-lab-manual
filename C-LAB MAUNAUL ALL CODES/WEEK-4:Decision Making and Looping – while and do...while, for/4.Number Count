@@ -1,15 +1,13 @@
 #include <stdio.h>
 int main() {
-    long long num;
+    int num;
     int count = 0;
-    char ch;
-    while (scanf("%lld", &num) == 1) {
-        printf("%lld",num);
+    while (scanf("%d", &num) == 1) {
         if (num % 2 != 0) {
-            count++;}
-        ch = getchar();
-        if (ch == '\n') {
-            break;}
+            count++;
+        }
+        if (getchar() == '\n') break; 
     }
     printf("%d", count);
-    return 0;}
+    return 0;
+}
